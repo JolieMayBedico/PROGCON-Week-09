@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="wk09d02ex03_guess_colors"/>
+        <attribute name="authors" value="Rams"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-28 10:55:26 AM"/>
+        <attribute name="created" value="UmFtcztDT01MQUIzMTQwQzExOzIwMjYtMDktMjg7MTA6NDI6MDAgQU07MjQ2Mw=="/>
+        <attribute name="edited" value="UmFtcztDT01MQUIzMTQwQzExOzIwMjYtMDktMjg7MTA6NTU6MjYgQU07MTsyNTgz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="rainbowColors" type="String" array="True" size="7"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="6" direction="inc" step="1">
+                <output expression="&quot;Hello! Welcome! Please enter color &quot; &amp; (i + 1) &amp; &quot; of the rainbow.&quot;" newline="True"/>
+                <input variable="rainbowColors[1]"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
